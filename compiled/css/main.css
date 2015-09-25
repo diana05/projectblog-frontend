@@ -1,0 +1,65 @@
+.blur-item {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+#container {
+  margin-bottom: 60px;
+}
+#main-nav .navbar.link-class {
+  text-align: center;
+}
+footer p {
+  text-align: right;
+  color: black;
+}
+body {
+  background-image: url(http://wallpapertica.com/uploads/20141007/vesna+vesna+vishnya+makro+fotoshop+babochki+tcveti+vetka+belij+fon+41241911456.jpg);
+}
+.col-md-4#content1 h3 {
+  font-family: Impact cursive;
+  color: rgba(39, 70, 209, 0.53);
+}
+.col-md-4#content1 p {
+  font-family: Brush Script MT;
+  color: black;
+  font-size: large;
+  text-align: justify;
+}
+.col-md-4#content2 h3 {
+  font-family: Impact cursive;
+  color: rgba(39, 70, 209, 0.53);
+}
+.col-md-4#content2 p {
+  font-family: Brush Script MT;
+  color: black;
+  font-size: large;
+  text-align: justify;
+}
+.row h1 {
+  font-family: Impact cursive;
+  color: rgba(39, 70, 209, 0.53);
+  text-align: center;
+  text-shadow: 2px 2px;
+}
+.col-md-4#sidebar {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #a83aff;
+  background-color: rgba(255, 195, 233, 0.44);
+  font-family: Georgia ;
+  color: #0000b1;
+}
+.col-md-4#sidebar h2 {
+  font-family: Georgia bold;
+  color: black;
+  text-align: center;
+}
+.col-md-4#sidebar a a {
+  text-decoration: none;
+  display: block;
+  width: 60px;
+  background-color: #dddddd;
+}
