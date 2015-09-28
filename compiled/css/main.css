@@ -11,10 +11,6 @@
 #main-nav .navbar.link-class {
   text-align: center;
 }
-footer p {
-  text-align: right;
-  color: black;
-}
 body {
   background-image: url(http://wallpapertica.com/uploads/20141007/vesna+vesna+vishnya+makro+fotoshop+babochki+tcveti+vetka+belij+fon+41241911456.jpg);
 }
@@ -49,7 +45,7 @@ body {
   border-width: 2px;
   border-color: #a83aff;
   background-color: rgba(255, 195, 233, 0.44);
-  font-family: Georgia ;
+  font-family: Georgia;
   color: #0000b1;
 }
 .col-md-4#sidebar h2 {
