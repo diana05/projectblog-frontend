@@ -4,7 +4,7 @@ this["JST"]["#app-layout"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<div id="sidebar"></div><div id="container" class="container"></div><div id="footer"></div>';
+__p += '<div id="sidebar"></div><div id="container" class="container"></div><div id="footer"><p>Create by Diana</p><p>Contact</p></div>';
 
 }
 return __p
@@ -26,11 +26,11 @@ var __t, __p = '', __e = _.escape;
 with (obj) {
 __p +=
 __e( model.title ) +
-'<br/>' +
+'<hr/>' +
 __e( model.description ) +
-'<br/>' +
+'<hr/>' +
 __e( model.content ) +
-'<br/>' +
+'\n' +
 __e( model.date ) +
 '\n' +
 __e( model.lastDate );

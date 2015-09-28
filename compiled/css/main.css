@@ -59,3 +59,8 @@ body {
   width: 60px;
   background-color: #dddddd;
 }
+#footer {
+  background-color: black;
+  font-family: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+  color: white;
+}
