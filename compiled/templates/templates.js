@@ -4,7 +4,7 @@ this["JST"]["#app-layout"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<div id="sidebar"></div><div id="container" class="container"></div><div id="footer"><p>Create by Diana</p><p>Contact</p></div>';
+__p += '<div id="sidebar"></div><div id="container" class="container"></div><div id="footer"><li>Create by Diana</li><p>Contact</p><p>Numar telefon: 0245 /677492</p><p>Strada: Mihai Bravu ,nr 4</p></div>';
 
 }
 return __p
