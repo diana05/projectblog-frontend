@@ -1,0 +1,16 @@
+h2
+   | Update new article
+.input-group
+   input#updateTitle.text.form-control(placeholder!='<%- model.title %>' aria-describedby="basic-addon1")
+br
+.input-group
+   textarea#updateDescription.text.form-control(placeholder!='<%- model.description %>' aria-describedby="basic-addon2")
+br
+.input-group
+    textarea#updateContent.text.form-control(placeholder!='<%- model.content %>' aria-describedby="basic-addon3")
+br
+button#saveButton.btn.btn-default
+    | Update Article
+br
+button#deleteButton.btn.btn-default
+    | Delete Article

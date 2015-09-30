@@ -3,7 +3,7 @@ define(function(require, exports, module) {
     var ItemModel= require('./item');
 
     module.exports = Backbone.Collection.extend({
-        url: 'http://localhost:8081/blog-rest-service/article'
+        url: 'http://localhost:8084/blog-rest-service/article'
         , model: ItemModel
     });
 });
