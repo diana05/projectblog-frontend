@@ -18,9 +18,11 @@ define(function(require, exports, module) {
         saveNewArticle : function(){
             var articleTitle = $('#articleTitle').val();
             var articleDescription = $('#articleDescription').val();
+            var articleContent = $ ('#articleContent').val();
 
             this.model.set('title',articleTitle);
             this.model.set('description',articleDescription);
+            this.model.set('content',articleContent);
 
             this.model.save();
         }

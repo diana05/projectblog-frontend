@@ -24,7 +24,7 @@ this["JST"]["#createArticle-layout"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<h2>Create new article</h2><div class="input-group"><input id="articleTitle" placeholder="Titlu articol" aria-describedby="basic-addon1" class="text form-control"/></div><br/><div class="input-group"><textarea id="articleDescription" placeholder="Descriere articol" aria-describedby="basic-addon2" class="text form-control"></textarea></div><br/><button id="saveButton" class="btn btn-default">Save</button>';
+__p += '<h2>Create new article</h2><div class="input-group"><input id="articleTitle" placeholder="Titlu articol" aria-describedby="basic-addon1" class="text form-control"/></div><br/><div class="input-group"><textarea id="articleDescription" placeholder="Descriere articol" aria-describedby="basic-addon2" class="text form-control"></textarea></div><br/><div class="input-group"><textarea id="articleContent" placeholder="Continut articol" aria-describedby="basic-addon3" class="text form-control"></textarea></div><br/><button id="saveButton" class="btn btn-default">Save</button>';
 
 }
 return __p
@@ -69,6 +69,54 @@ __p += '<nav class="navbar navbar-inverse"><div class="container-fluid"><div><ul
 return __p
 };
 
+this["JST"]["#showArticle-article-comment"] = function(obj) {
+obj || (obj = {});
+var __t, __p = '', __e = _.escape;
+with (obj) {
+__p += '<h5>Comments details<span>' +
+__e( model.content ) +
+'</span><span>' +
+__e( model.articleId ) +
+'</span></h5>';
+
+}
+return __p
+};
+
+this["JST"]["#showArticle-article-details"] = function(obj) {
+obj || (obj = {});
+var __t, __p = '', __e = _.escape;
+with (obj) {
+__p += '<h2>This is my article<span>' +
+__e( model.title ) +
+'</span><span>' +
+__e( model.description ) +
+'</span></h2>';
+
+}
+return __p
+};
+
+this["JST"]["#showArticle-article"] = function(obj) {
+obj || (obj = {});
+var __t, __p = '', __e = _.escape;
+with (obj) {
+__p += '<div id="show-article-details"></div><div id="show-article-comments"></div>';
+
+}
+return __p
+};
+
+this["JST"]["#showArticle-layout"] = function(obj) {
+obj || (obj = {});
+var __t, __p = '', __e = _.escape;
+with (obj) {
+__p += '<div id="show-article-details"></div><div id="show-article-comments"></div>';
+
+}
+return __p
+};
+
 this["JST"]["#updateArticle-layout"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
@@ -79,7 +127,7 @@ __e( model.title ) +
 __e( model.description ) +
 '" aria-describedby="basic-addon2" class="text form-control"></textarea></div><br/><div class="input-group"><textarea id="updateContent" placeholder="' +
 __e( model.content ) +
-'" aria-describedby="basic-addon3" class="text form-control"></textarea></div><br/><button id="saveButton" class="btn btn-default">Update Article</button><br/><button id="deleteButton" class="btn btn-default">Delete Article</button>';
+'" aria-describedby="basic-addon3" class="text form-control"></textarea></div><br/><button id="saveButton" class="btn btn-default">Update Articlehjghhj</button><br/><button id="deleteButton" class="btn btn-default">Delete Article</button>';
 
 }
 return __p

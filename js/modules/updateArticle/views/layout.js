@@ -4,8 +4,8 @@ define(function(require, exports, module) {
     var UpdateArticleModel = require('../models/updateModel');
 
     module.exports = Marionette.ItemView.extend({
-        id: 'create-article',
-        template: '#createArticle-layout',
+        id: 'update-article',
+        template: '#updateArticle-layout',
 
         events :{
             'click #saveButton' : 'saveNewArticle',
