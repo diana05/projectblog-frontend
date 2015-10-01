@@ -9,7 +9,7 @@ define(function(require, exports, module) {
         itemView: ItemView,
 
         initialize: function() {
-            debugger;
+
         }
 
 

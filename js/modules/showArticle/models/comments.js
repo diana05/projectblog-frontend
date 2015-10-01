@@ -5,7 +5,7 @@ define(function(require, exports, module) {
     module.exports = Backbone.Collection.extend({
         model: comment ,
         url :function(){
-            return 'http://localhost:8084/blog-rest-service/article/' + this.id+'/comments';
+            return 'http://localhost:8084/blog-rest-service/article/' + this.id+'/comment';
         }
     })
 

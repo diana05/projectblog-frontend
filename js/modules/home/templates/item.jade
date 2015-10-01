@@ -1,8 +1,28 @@
-<%- model.title %>
-hr
-<%- model.description %>
-hr
-<%- model.content %>
 
-<%- model.date %>
-<%- model.lastDate %>
+span
+    h5
+        | Titlu articol
+    <%- model.title %>
+    hr
+    h5
+        | Descriere articol
+    <%- model.description %>
+    hr
+    h5
+        | Continut
+    <%- model.content %>
+    hr
+    h5
+        |Date
+    <%- model.date %>
+    hr
+    h5
+        |Last date
+    <%- model.lastDate %>
+    h5
+        | Comments details
+    br
+    span
+        <%- model.content %>
+        span
+        <%- model.articleId %>

@@ -5,11 +5,11 @@ define(function(require, exports, module) {
     var ItemCollection = require('../models/itemCollection');
 
     module.exports = Marionette.ItemView.extend({
-        tagName: 'li',
+        tagName: 'table',
         template: '#home-item',
 
         onRender: function() {
-            debugger;
+
         }
 
     });

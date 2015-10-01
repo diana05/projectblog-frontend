@@ -4,6 +4,6 @@ define(function(require, exports, module) {
 
     module.exports= Marionette.ItemView.extend({
         id: 'article-comments',
-        template : '#showArticle-article-comments'
+        template : '#showArticle-article-comment'
     })
 });

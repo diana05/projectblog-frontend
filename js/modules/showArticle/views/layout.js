@@ -9,7 +9,7 @@ define(function(require, exports, module) {
 
     module.exports =Marionette.Layout.extend({
         id:'Article-layout',
-        templates :'#showArticle-article',
+        template :'#showArticle-layout',
 
         regions :{
             showArticleDetails :'#show-article-details',

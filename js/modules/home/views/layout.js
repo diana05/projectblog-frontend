@@ -7,16 +7,25 @@ define(function(require, exports, module) {
 
     module.exports = Marionette.ItemView.extend({
         id: 'home',
-        template: '#home-layout'
+        template: '#home-layout',
 
-        , initialize: function(){
+            events:{
+                'click #createArticleButton' : 'creareNewArticle'
+
+            },
+
+         initialize: function(){
             var self = this;
             Marionette.ItemView.prototype.initialize.apply(this,arguments);
             this.collection = new ItemCollection();
             this.collection.fetch().then(function(){
                 var collectionView = new ItemCollectionView({collection: self.collection});
-                self.$el.find('#collection-container').html(collectionView.render().$el);
+                self.$el.find('#container2').html(collectionView.render().$el);
             })
+        },
+
+        creareNewArticle: function(){
+            Backbone.history.navigate('#create-article', true);
         }
     });
 });
