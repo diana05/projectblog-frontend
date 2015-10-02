@@ -1,28 +1,14 @@
-
-span
-    h5
-        | Titlu articol
-    <%- model.title %>
+.blockquote1
+    h2
+        <%- model.title %>
     hr
-    h5
-        | Descriere articol
-    <%- model.description %>
-    hr
-    h5
-        | Continut
-    <%- model.content %>
-    hr
-    h5
-        |Date
-    <%- model.date %>
-    hr
-    h5
-        |Last date
-    <%- model.lastDate %>
-    h5
-        | Comments details
-    br
-    span
-        <%- model.content %>
-        span
-        <%- model.articleId %>
+    p
+        <%- model.description %>
+button#viewMore.btn.btn-default
+    | View More
+button#deleteArticle.btn.btn-danger
+    | Delete
+button#updateArticle.btn.btn-default
+    | Update article
+button#createArticle.btn.btn-default
+    | Creare articol

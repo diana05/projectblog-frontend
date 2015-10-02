@@ -5,7 +5,7 @@ define(function(require, exports, module) {
 
     var MapRouteController = Marionette.Controller.extend({
         showUpdateArticle: function (id) {
-            debugger;
+
             app.showLayout(new UpdateArticle({id: id}) );
         }
     });

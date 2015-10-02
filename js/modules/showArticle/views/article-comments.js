@@ -3,9 +3,12 @@ define(function(require, exports, module) {
     var Marionette = require('marionette');
 
     var ArticleComment= require('./article-comment');
+    var NoComments = require('./no-comments');
 
     module.exports= Marionette.CollectionView.extend({
-       itemView : ArticleComment
+       itemView : ArticleComment,
+        emptyView: NoComments
+
     })
 });
 

@@ -1,37 +1,31 @@
-body
-	.container1
-	br
-	#myCarousel.carouselslide(data-ride="carousel" float="center")
-		ol.carousel-indicators
-			li(data-target="#myCarousel" data-slide-to="0").active
-			li(data-target="#myCarousel" data-slide-to="1")
-			li(data-target="#myCarousel" data-slide-to="2")
-			li(data-target="#myCarousel" data-slide-to="3")
-			li(data-target="#myCarousel" data-slide-to="4")
-		.carousel-inner(role="listbox")
-			.item.active
-				img(src="../../static/1.jpg")
-			.item
-				img(src="../../static/2.jpg")
-			.item
-				img(src="../../static/3.jpg")
-			.item
-				img(src="../../static/4.jpg")
-			.item
-				img(src="../../static/5.jpg")
-		a.left.carousel-control(href="#myCarousel" role="botton" data-slide="prev")
-			span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
-			span.sr-only
-				| Previous
-		a.right.carousel-control(href="#myCarousel" role="botton" data-slide ="next")
-			span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
-			span.sr-only
-				| Next
+.container1
+br
+#myCarousel.carouselslide(data-ride="carousel" float="center")
+	ol.carousel-indicators
+		li(data-target="#myCarousel" data-slide-to="0").active
+		li(data-target="#myCarousel" data-slide-to="1")
+		li(data-target="#myCarousel" data-slide-to="2")
+		li(data-target="#myCarousel" data-slide-to="3")
+		li(data-target="#myCarousel" data-slide-to="4")
+	.carousel-inner(role="listbox")
+		.item.active
+			img(src="../../static/1.jpg")
+		.item
+			img(src="../../static/2.jpg")
+		.item
+			img(src="../../static/3.jpg")
+		.item
+			img(src="../../static/4.jpg")
+		.item
+			img(src="../../static/5.jpg")
+	a.left.carousel-control(href="#myCarousel" role="botton" data-slide="prev")
+		span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+		span.sr-only
+			| Previous
+	a.right.carousel-control(href="#myCarousel" role="botton" data-slide ="next")
+		span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+		span.sr-only
+			| Next
 
-	#container2
-		br
-		button#createArticleButton.btn.btn-default
-			| See more
-		br
-		button#createArticleButton.btn.btn-default
-			| Creare articol
+#container2
+

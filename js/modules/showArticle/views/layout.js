@@ -11,6 +11,12 @@ define(function(require, exports, module) {
         id:'Article-layout',
         template :'#showArticle-layout',
 
+        events:{
+            'click #deleteArticle' :'deleteArticle',
+            'click #createComment' :'createComment',
+            'click #updateArticle': 'updateArticle'
+        },
+
         regions :{
             showArticleDetails :'#show-article-details',
             showComments :'#show-article-comments'
@@ -18,6 +24,17 @@ define(function(require, exports, module) {
 
         initialize : function(options){
             this.id = options.id
+        },
+
+        deleteArticle: function(){
+            this.model.destroy();
+        },
+        createComment:function(){
+            Backbone.history.navigate('#create-article', true);
+
+        },
+        updateArticle :function(){
+            Backbone.history.navigate('#update-article/'+this.model.id, true);
         },
 
         onRender :function (){

@@ -11,11 +11,11 @@
 #main-nav .navbar.link-class {
   text-align: center;
 }
+#main-nav .container-fluid {
+  background-color: blue;
+}
 body {
   background-image: url(http://wallpapertica.com/uploads/20141007/vesna+vesna+vishnya+makro+fotoshop+babochki+tcveti+vetka+belij+fon+41241911456.jpg);
-}
-.container1 {
-  background: transparent;
 }
 #myCarousel {
   margin-left: 10%;
@@ -36,53 +36,38 @@ body {
   margin-bottom: 12%;
   margin-top: 5%;
 }
-.col-md-4#content1 h3 {
-  font-family: Impact cursive;
-  color: rgba(39, 70, 209, 0.53);
-}
-.col-md-4#content1 p {
-  font-family: Brush Script MT;
-  color: black;
-  font-size: large;
-  text-align: justify;
-}
-.col-md-4#content2 h3 {
-  font-family: Impact cursive;
-  color: rgba(39, 70, 209, 0.53);
-}
-.col-md-4#content2 p {
-  font-family: Brush Script MT;
-  color: black;
-  font-size: large;
-  text-align: justify;
-}
-.row h1 {
-  font-family: Impact cursive;
-  color: rgba(39, 70, 209, 0.53);
-  text-align: center;
-  text-shadow: 2px 2px;
-}
-.col-md-4#sidebar {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #a83aff;
-  background-color: rgba(255, 195, 233, 0.44);
-  font-family: Georgia;
-  color: #0000b1;
-}
-.col-md-4#sidebar h2 {
-  font-family: Georgia bold;
-  color: black;
-  text-align: center;
-}
-.col-md-4#sidebar a a {
-  text-decoration: none;
-  display: block;
-  width: 60px;
-  background-color: #dddddd;
-}
 #container2 {
-  background: red;
+  border-color: blue;
+}
+#container2 h2 {
+  font-family: Impact cursive;
+  color: rgba(39, 70, 209, 0.53);
+  text-align: center;
+}
+#container2 p {
+  font-family: Brush Script MT;
+  color: black;
+  font-size: large;
+  text-align: justify;
+  text-indent: 50px;
+}
+button#viewMore {
+  background: #eed2ee;
+  font-family: Impact;
+  color: #6a293a;
+}
+button#updateArticle {
+  background: #8b475d;
+  font-family: Impact;
+  color: #eeeeee;
+}
+button#createArticle {
+  background: #8b475d;
+  font-family: Impact;
+  color: #fa8072;
+}
+.blockquote1 {
+  background-color: #ffe1ff;
 }
 #footer {
   background-color: black;
@@ -91,4 +76,148 @@ body {
 }
 #footer p {
   text-align: right;
+}
+.container .col-md-8 img {
+  float: left;
+}
+.container h3 {
+  color: #f6401c;
+  font-family: Century ;
+  font-size: large;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+.container p {
+  font-family: Brush Script MT;
+  color: #49283a;
+  font-size: large;
+  text-align: justify;
+  text-indent: 50px;
+}
+.container h5 {
+  color: #f6401c;
+  font-family: Century ;
+  font-size: large;
+  text-align: center;
+  text-shadow: 2px 2px blue;
+}
+.container .col-md-4 .img {
+  border-collapse: collapse;
+  border-style: solid;
+  border-color: #b9d3ee #0000ff #b9d3ee #0000ff;
+  float: inherit;
+}
+#blockquote2 {
+  background-color: #ffe1ff;
+  text-shadow: 2px 2px #ee6a50;
+  text-align: start;
+  font-family: Cooper;
+}
+.container1 .form-inline .form-group {
+  form: form-inline;
+}
+.container1 .form-inline .form-group label {
+  background-color: #cce5cc;
+}
+#create-article h2 {
+  color: #f6546a;
+  font-family: Brush Script MT;
+  font-size: large;
+  text-align: justify;
+  font-style: italic;
+  text-decoration: underline;
+}
+.input-group input#articleTitle {
+  background-color: #ffdab9;
+  font-family: Constantia;
+  font-style: oblique;
+  color: #9900ff;
+}
+.input-group textarea#articleDescription {
+  background-color: #ffdab9;
+  font-family: Constantia;
+  font-style: oblique;
+  color: #9900ff;
+}
+.input-group textarea#articleContent {
+  background-color: #ffdab9;
+  font-family: Constantia;
+  font-style: oblique;
+  color: #9900ff;
+}
+button#saveButton {
+  background: #00ff66;
+  font-family: Impact;
+  color: #6a293a;
+}
+h2 {
+  color: #49283a;
+  font-family: Brush Script MT;
+  font-size: 40px;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
+.input-group input#updateTitle {
+  background-color: #ffdab9;
+  font-family: Constantia;
+  font-style: oblique;
+  color: #9900ff;
+}
+.input-group textarea#updateDescription {
+  background-color: #ffdab9;
+  font-family: Constantia;
+  font-style: oblique;
+  color: #9900ff;
+}
+.input-group textarea#updateContent {
+  background-color: #ffdab9;
+  font-family: Constantia;
+  font-style: oblique;
+  color: #9900ff;
+}
+button#saveButton {
+  background: #00ff66;
+  font-family: Impact;
+  color: #6a293a;
+}
+button#deleteButton {
+  background: #00ff66;
+  font-family: Impact;
+  color: #6a293a;
+}
+#show-article-details {
+  background-color: transparent;
+  font-family: Georgia;
+  color: #8b3a62;
+  font-size: larger;
+  text-align: left;
+}
+#show-article-comments {
+  background-color: transparent;
+  font-family: Georgia;
+  color: #8b3a62;
+  font-size: larger;
+  text-align: left;
+}
+button#deleteArticle {
+  background-color: #cef8e8;
+  font-family: Impact;
+  color: #6a293a;
+}
+button#updateArticle {
+  background-color: #cef8e8;
+  font-family: Impact;
+  color: #6a293a;
+}
+button#createComment {
+  background-color: #cef8e8;
+  font-family: Impact;
+  color: #6a293a;
+}
+h5 {
+  text-align: center;
+}
+h2 {
+  text-align: left;
 }
